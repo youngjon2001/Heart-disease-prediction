@@ -195,4 +195,39 @@ This ensures:
 - Deployment readiness
 
 The workflow reflects real-world ML engineering practices, not just academic modeling
+---
+## Model Explainability (SHAP)
+
+Model interpretability is critical for clinical and healthcare-related applications.  
+To ensure transparency and trust in predictions, **SHAP (SHapley Additive exPlanations)** was used to explain the behavior of the final XGBoost model.
+
+SHAP analysis is implemented directly in the notebook and provides:
+
+- Global feature importance (overall drivers of predictions)
+- Local explanations for individual predictions
+- Insight into how feature values increase or decrease predicted risk
+
+### Why SHAP?
+- Model-agnostic and theoretically grounded
+- Suitable for complex tree-based models like XGBoost
+- Widely accepted in regulated and medical ML workflows
+
+The SHAP visualizations demonstrate that the model relies on clinically relevant features such as:
+- Thallium test results
+- ST depression
+- Number of vessels observed via fluoroscopy
+- Exercise-induced angina
+
+This ensures that predictions are not only accurate but also interpretable and clinically meaningful.
+---
+
+## Future Work
+
+- SHAP-based model explainability
+
+- Cost-sensitive learning to reduce false negatives
+
+- External dataset validation
+
+- Model monitoring and drift detection
 
