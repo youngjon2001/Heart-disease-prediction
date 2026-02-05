@@ -156,3 +156,12 @@ The final XGBoost pipeline (including preprocessing steps) was serialized using 
 
 ```python
 joblib.dump(xgb_pipeline, "xgboost_heart_disease_model.pkl")
+```
+
+This ensures:
+
+Consistent preprocessing
+
+No data leakage
+
+Reliable inference on new data
