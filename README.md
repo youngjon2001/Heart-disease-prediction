@@ -160,8 +160,38 @@ joblib.dump(xgb_pipeline, "xgboost_heart_disease_model.pkl")
 
 This ensures:
 
-Consistent preprocessing
+- Consistent preprocessing
 
-No data leakage
+- No data leakage
 
-Reliable inference on new data
+- Reliable inference on new data
+---
+## Project Structure
+
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│
+├── notebooks/
+│   └── Heart_prediction_.ipynb
+│
+├── models/
+│   └── xgboost_heart_disease_model.pkl
+│
+├── submission.csv
+└── README.md
+---
+## Key Takeaways
+
+- Model selection was evidence-driven, not accuracy-only
+
+- XGBoost delivered the best balance of:
+
+- Performance
+
+- Probability reliability
+
+- Deployment readiness
+
+The workflow reflects real-world ML engineering practices, not just academic modeling
+
