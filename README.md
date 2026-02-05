@@ -167,7 +167,7 @@ This ensures:
 - Reliable inference on new data
 ---
 ## Project Structure
-
+```python
 ├── data/
 │   ├── train.csv
 │   ├── test.csv
@@ -180,6 +180,7 @@ This ensures:
 │
 ├── submission.csv
 └── README.md
+```
 ---
 ## Key Takeaways
 
