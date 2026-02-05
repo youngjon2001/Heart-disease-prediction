@@ -220,6 +220,7 @@ The SHAP visualizations demonstrate that the model relies on clinically relevant
 - Exercise-induced angina
 
 This ensures that predictions are not only accurate but also interpretable and clinically meaningful.
+
 ---
 
 ## Future Work
