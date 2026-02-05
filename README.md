@@ -232,3 +232,9 @@ This ensures that predictions are not only accurate but also interpretable and c
 
 - Model monitoring and drift detection
 
+---
+## 👤 Author
+
+Joseph
+Medical Laboratory Scientist → Data Analyst → ML / AI Engineer
+
